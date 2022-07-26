@@ -5,10 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Estudio juridico Dap y Asociados</title>
+  <title >Estudio juridico Dap y Asociados</title>
   <link rel="shortcut icon" href="imagenes/balance-de-peso.png" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <!--inicio del body-->
 
@@ -19,23 +20,36 @@
 
   <header class="header">
 
-    <div class="logo">
-      <p> <a href="index.html">DAP & Asociados </a></p>
-    </div>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li><a class="nav__link" href="index.html">inicio</a></li>
-        <li><a class="nav__link" href="pages/areas_practicas.html">Áreas de práctica</a></li>
-        <li><a class="nav__link" href="pages/preguntas_frecuentes.html">preguntas frecuentes</a></li>
-        <li><a class="nav__link" href="pages/nosotros.html">nosotros</a></li>
-        <li><a class="nav__link" href="pages/contacto.html">contacto</a></li>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/index.html">DAP & Asociados</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/areas_practicas.html">Areas practicas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/preguntas_frecuentes.html">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/nosotros.html">nosotros</a>
+          <li class="nav-item">
+          <a class="nav-link" href="/pages/contacto.html">contacto</a>
+        </li>
       </ul>
-    </nav>
+    </div>
+  </div>
+</nav>
 
     <section class="textos-header">
-      <h1>DAP & Asociados</h1>
-      <h2>Bienvenidos</h2>
+      <h1 class="display-1" >DAP & Asociados</h1>
+      <h2 class="display-5">Bienvenidos</h2>
     </section>
   </header>
 
@@ -43,75 +57,73 @@
 
 
   <!--inicio del main-->
-  <div class="container">
-    <main class="main">
-      <div class="contenedorPadre">
-        <section class="sobre-nosotros">
-
-          <h2 class="titulo">¿porque elegirnos?</h2>
+  <main class="main">
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+    <h2 class="titulo">¿porque elegirnos?</h2>
           <div class="contenedor-sobre-nosotros">
-              <img src="imagenes/img1.png" alt="imagen de balanza" class="imagen-about-us" />
-
+              <img src="imagenes/img1.png" class="img-thumbnail" alt="imagen de balanza" width="200" height="200">
             <div class="text">
-              <div class="contenido-textos">
-                <h3><span>1</span>Atención personalizada</h3>
-                <p>
+              
+                <h3>Atención personalizada</h3>
+                <p class="lead">
                   Somos una firma que trabaja con coherencia, paciencia y
                   profesionalismo dando a cada caso la atención que
                   merece.Trabajamos de manera cercana con nuestros clientes para que
                   puedan tomar las mejores decisiones.
                 </p>
                 <br>
-
-                <h3><span>2</span>Trayectoria</h3>
-                <p>
+                <h3>Trayectoria</h3>
+                <p class="lead">
                   Contamos con mas de 2 años de experiencia en diversas áreas de conflictos, con Profesionales
                   apasionados por lo que hacen, un sólido curriculum y una amplia cartera de clientes que avalan nuestro
                   accionar.
                 </p>
                 <br>
-                <h3><span>3</span>Experiencia</h3>
+                <h3>Experiencia</h3>
                 <p>
                   Con más de veinte consultas semanales y una multitud de casos de diversas áreas resueltos
                   favorablemente nos encontramos en condiciones de afirmar que nuestra experiencia jurídica dá fe de
                   nuestro profesionalismo.
                 </p>
               </div>
-
-            </div>
-          </div>
-
-          <section class="contenedor2">
+    </div>
+    <div class="col">
+      <section class="contenedor2">
             <h2 class="titulo">Oficinas</h2>
             <div class="contenedor-sobre-nosotros">
               <div class="image">
-                <img src="./imagenes/oficina.png" alt="Oficinas" class="imagen-about-us" />
+              <img src="./imagenes/oficina.png" class="img-thumbnail" alt="oficina" width="200" height="200">
               </div>
 
-              <div class="text">
-                <div class="contenido-textos">
+              
+                
                   <h3>servicios</h3>
-                  <p>
+                  <p class="lead">
                     Disponemos de oficinas altamente equipadas con todas las herramientas que un buffet debe tener ,
                     incluyendo hasta servicios adicionales donde los clientes tendran acceso al servicio de garage , Bar
                     , entre otros ya que para nosotros es muy importante que el cliente encuentre en nuestras oficinas ,
                     comodidad y seguridad.
                   </p>
                 </div>
-              </div>
+              
             </div>
-            
-            <section class="contenedor2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+       <section class="contenedor2">
               <h2 class="titulo">Equipo</h2>
               <div class="contenedor-sobre-nosotros">
                 <div class="image">
-                  <img src="imagenes/team.png" alt="Oficinas" class="imagen-about-us" />
+                  <img src="./imagenes/team.png" class="img-thumbnail" alt="team" width="200" height="200">
                 </div>
 
                 <div class="text">
                   <div class="contenido-textos">
                     <h3>Nuestro Equipo</h3>
-                    <p>
+                    <p class="lead">
                       El estudio está integrado por un sólido equipo de especialistas dedicados a satisfacer al cliente
                       a través de un trato directo y estrecho. Nuestros conocimientos de las herramientas jurídicas y
                       del derecho se ponen a disposición no solo al momento de litigar, sino previamente en la
@@ -119,50 +131,66 @@
                     </p>
                     <br>
                     <h3>plantel</h3>
-                    <p>
+                    <p class="lead">
                       Nuestro plantel se encuentra conformado por personalidades destacadas del ambiente jurídico y
                       disciplinas complementarias para lograr una combinación que coordine y conforme el mejor estudio
                       jurídico del país.
                     </p>
                     <br>
                     <h3>Diversidad e inclusíon</h3>
-                    <p>
+                    <p class="lead">
                       Promovemos la diversidad inclsuiva y la no discriminacion, lo que permite que los empleados
                       desarrollen su potencial individual.
                     </p>
                   </div>
                 </div>
               </div>
-
-              <section class="contenedor2">
+    </div>
+    <div class="col">
+      <section class="contenedor2">
                 <h2 class="titulo">Ubicación</h2>
                 <div class="contenedor-sobre-nosotros">
                   <div class="image">
-                    <img src="imagenes/obelisco.png" alt="Oficinas" class="imagen-about-us" />
+                    <img src="./imagenes/obelisco.png" class="img-thumbnail" alt="obelisco" width="200" height="200">
                   </div>
 
                   <div class="text">
                     <div class="contenido-textos">
                       <h3>Recoleta</h3>
-                      <p>
+                      <p class="lead">
                         Nuestra oficina central se encuentra ubicada en Lavalle 1454, C1048 CABA , a 3 cuadras del subte
                         linea H.
                       </p>
                       <br>
                       <h3>Caballito</h3>
-                      <p>
+                      <p class="lead">
                         Av. Directorio 135, C1424 CIB, Buenos Aires , a 1 cuadra de la autopista 25 de mayo y 3 cuadras
                         del subte linea E.
                       </p>
                       <br>
                       <h3>Ramos Mejia</h3>
-                      <p>
+                      <p class="lead">
                         ETC, Belgrano 123, B1704 Ramos Mejía, Provincia de Buenos Aires, a 1 cuadra de la estacion de
                         Ramos Mejia Linea Sarmiento.
                       </p>
                     </div>
                   </div>
+    </div>
+  </div>
+</div>
+      
 
+
+                
+
+            </div>
+          </div>
+
+          
+            
+           
+
+             
     </main>
   </div>
   </div>
@@ -172,37 +200,25 @@
 
   <!-- aca comienza el footer-->
   <footer class="footer">
-    <div class="contenedor-footer">
-      <div class="content-foo">
-        <img src="iconos/telefono.svg" alt="telefono" width="20px" height="20pxm">
-        <p>teléfono</p>
-        <p>5423828</p>
-      </div>
-      <div class="content-foo">
-        <img src="iconos/instagram.svg" alt="instagram" width="20px" height="20px">
-        <p>instagram</p>
-        <p>ADP & Asociados</p>
-      </div>
-      <div class="content-foo">
-        <img src="iconos/facebook.svg" alt="facebook" width="20px" height="20px">
-        <p>facebook</p>
-        <p>ADP & Asociados</p>
-      </div>
-      <div class="content-foo">
-        <img src="iconos/twitter.svg" alt="twitter" width="20px" height="20px">
-        <p>Twitter</p>
-        <p>ADP & Asociados</p>
-      </div>
-      <div class="content-foo">
-        <img src="iconos/whatsapp.svg" alt="whatsapp" width="1rem" height="1rem">
-        <p>whatsapp</p>
-        <p>11457787</p>
-      </div>
+    <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© DylanADesign | Altamiranda Prieto</span>
     </div>
-    <h2 class="titulo-final">&copy;DylanADesign | Altamiranda Prieto</h2>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="iconos/facebook.svg"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="iconos/instagram.svg"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="iconos/whatsapp.svg"><svg class="bi" width="24" height="24"><use xlink:href="iconos/whatsapp.svg"></use></svg></a></li>
+    </ul>
   </footer>
   </div>
   <!--  fin footer -->
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>
