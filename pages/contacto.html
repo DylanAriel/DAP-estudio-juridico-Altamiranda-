@@ -10,44 +10,43 @@
       type="image/x-icon"
     />
     <title>Contacto</title>
-    <link rel="stylesheet" href="../style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body class="body">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body class="body">
     <!--header-->
-    <header class="header3">
-      <div class="phone">
-        <div class="logo">
-          <p>
-            <a href="../index.html">DAP & Asociados </a>
-          </p>
-        </div>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li><a class="nav__link" href="../index.html">inicio</a></li>
-            <li>
-              <a class="nav__link" href="areas_practicas.html"
-                >Áreas de práctica</a
-              >
-            </li>
-            <li>
-              <a class="nav__link" href="preguntas_frecuentes.html"
-                >preguntas frecuentes</a
-              >
-            </li>
-            <li><a class="nav__link" href="nosotros.html">nosotros</a></li>
-            <li><a class="nav__link" href="contacto.html">contacto</a></li>
-          </ul>
-        </nav>
-        <section class="textos-header">
-          <h1>Contacto</h1>
-        </section>
-      </div>
-    </header>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/index.html">DAP & Asociados</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/index.html">inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/areas_practicas.html">Areas practicas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/preguntas_frecuentes.html">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/nosotros.html">nosotros</a>
+          <li class="nav-item">
+          <a class="nav-link" href="/pages/contacto.html">contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <section class="textos-header">
+      <h1 class="display-1" >DAP & Asociados</h1>
+      <h2 class="display-5">Bienvenidos</h2>
+    </section>
+  </header>
     <!--fin de header-->
     <main class="menu__contacto">
       <form action="form-text">
@@ -76,78 +75,24 @@
           </fieldset>
         </div>
       </form>
-
-      <!--iframe-->
-      <div class="iframe">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d976.5746251035359!2d-58.4035790918691!3d-34.58411896873966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb518ad137527%3A0x880858a7383d4b18!2sCajero%20Autom%C3%A1tico%20HSBC%20Bank%20Argentina%20SA!5e0!3m2!1ses!2sar!4v1655676004531!5m2!1ses!2sar"
-          width="400"
-          height="300"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </div>
-      <!--fin del iframe-->
     </main>
     <!--footer-->
     <footer class="footer">
-      <div class="contenedor-footer">
-        <div class="content-foo">
-          <img
-            src="../iconos/telefono.svg"
-            alt="telefono"
-            width="20"
-            height="20"
-          />
-          <h4>teléfono</h4>
-          <p>5423828</p>
-        </div>
-
-        <div class="content-foo">
-          <img
-            src="../iconos/instagram.svg"
-            alt="instagram"
-            width="20"
-            height="20"
-          />
-          <h4>instagram</h4>
-          <p>ADP & Asociados</p>
-        </div>
-        <div class="content-foo">
-          <img
-            src="../iconos/facebook.svg"
-            alt="facebook"
-            width="20"
-            height="20"
-          />
-          <h4>facebook</h4>
-          <p>ADP & Asociados</p>
-        </div>
-        <div class="content-foo">
-          <img
-            src="../iconos/twitter.svg"
-            alt="twitter"
-            width="20"
-            height="20"
-          />
-          <h4>Twitter</h4>
-          <p>ADP & Asociados</p>
-        </div>
-        <div class="content-foo">
-          <img
-            src="../iconos/whatsapp.svg"
-            alt="whatsapp"
-            width="20"
-            height="20"
-          />
-          <h4>whatsapp</h4>
-          <p>11457787</p>
-        </div>
-      </div>
-      <h2 class="titulo-final">&copy;DylanADesign | Altamiranda Prieto</h2>
-    </footer>
+    <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© DylanADesign | Altamiranda Prieto</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="iconos/facebook.svg"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="iconos/instagram.svg"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="iconos/whatsapp.svg"><svg class="bi" width="24" height="24"><use xlink:href="iconos/whatsapp.svg"></use></svg></a></li>
+    </ul>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
